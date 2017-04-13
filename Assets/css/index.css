@@ -1,0 +1,61 @@
+.teal-header {
+	position: fixed;
+	background: #4aaaa5;
+	padding: 30px;
+	margin-left: 30px;
+	text-align: center;
+	font-family: Georgia;
+	font-size: 30px;
+}
+
+.tabs {
+	float: right;
+}
+
+.right-tabs {
+	float: right;
+	/*padding: 40px;*/
+	display: inline-block;
+}
+
+h2 {
+	font-family: serif;
+	font-size: 25px;
+	color: #4aaaa5;
+}
+
+body {
+	background-image: url("../images/Sports.png");	
+}
+
+
+.cwm {
+	padding-left: 400px;
+	font-family: serif;
+	font-size: 25px;
+	color: #4aaaa5;
+	padding-top: 200px;
+	margin-left: 200px;
+	margin-right: 50px;
+}
+
+.connect-sect {	
+	padding-top: 200px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.image {
+	margin-right: 20px;
+}
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #666666;
+  text-align: center;
+}
