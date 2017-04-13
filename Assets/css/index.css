@@ -6,6 +6,7 @@
 	text-align: center;
 	font-family: Georgia;
 	font-size: 30px;
+	color: white;
 }
 
 .tabs {
@@ -14,9 +15,12 @@
 
 .right-tabs {
 	float: right;
-	/*padding: 40px;*/
-	display: inline-block;
+	display: block;
+	text-align: center;
+	display: inline;
 }
+
+
 
 h2 {
 	font-family: serif;
@@ -30,7 +34,7 @@ body {
 
 
 .cwm {
-	padding-left: 400px;
+	float: right;
 	font-family: serif;
 	font-size: 25px;
 	color: #4aaaa5;
@@ -40,13 +44,10 @@ body {
 }
 
 .connect-sect {	
-	padding-top: 200px;
+	background: white; 
+	padding-top: 100px;
 	margin-left: 200px;
 	margin-right: 200px;
-}
-
-.image {
-	margin-right: 20px;
 }
 
 
