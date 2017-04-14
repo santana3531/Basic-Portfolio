@@ -9,18 +9,21 @@
 	color: white;
 }
 
-.tabs {
-	float: right;
-}
-
 .right-tabs {
 	float: right;
 	display: block;
 	text-align: center;
-	display: inline;
 }
 
+.main-nav {
+	background: #ffffff;
+	width: 100%;
+	border-bottom: 1px solid #777777;
+}
 
+li {
+	display: inline;
+}
 
 h2 {
 	font-family: serif;
@@ -44,7 +47,7 @@ body {
 }
 
 .connect-sect {	
-	background: white; 
+	 
 	padding-top: 100px;
 	margin-left: 200px;
 	margin-right: 200px;
