@@ -1,5 +1,5 @@
 .teal-header {
-	position: fixed;
+	position: absolute;
 	background: #4aaaa5;
 	padding: 30px;
 	margin-left: 30px;
@@ -9,20 +9,21 @@
 	color: white;
 }
 
-.right-tabs {
-	float: right;
-	display: block;
-	text-align: center;
+
 }
 
 .main-nav {
+	position: absolute;
+	float: left;
 	background: #ffffff;
 	width: 100%;
 	border-bottom: 1px solid #777777;
 }
 
-li {
-	display: inline;
+li { 
+	display: inline-block;
+	float: right;
+	padding-top: 20px;
 }
 
 h2 {
