@@ -1,5 +1,6 @@
 .teal-header {
 	position: absolute;
+	clear: both;
 	background: #4aaaa5;
 	padding: 30px;
 	margin-left: 30px;
@@ -9,11 +10,8 @@
 	color: white;
 }
 
-
-}
-
 .main-nav {
-	position: absolute;
+	position: relative;
 	float: left;
 	background: #ffffff;
 	width: 100%;
@@ -21,7 +19,7 @@
 }
 
 li { 
-	display: inline-block;
+	display: block;
 	float: right;
 	padding-top: 20px;
 }
@@ -36,27 +34,32 @@ body {
 	background-image: url("../images/Sports.png");	
 }
 
+.image {
+	float: left;
+	height: 125px;
+	width: 125px;
+}
 
 .cwm {
 	float: right;
+	padding-top: 50px;
 	font-family: serif;
 	font-size: 25px;
 	color: #4aaaa5;
-	padding-top: 200px;
-	margin-left: 200px;
-	margin-right: 50px;
+	background: white;
 }
 
 .connect-sect {	
-	 
+	background-color: #ffffff;
+	border-color: #dddddd;
 	padding-top: 100px;
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 300px;
+	margin-right: 300px;
 }
 
 
 .footer {
-  position: relative;
+  position: fixed;
   clear: both;
   right: 0;
   bottom: 0;
