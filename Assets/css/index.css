@@ -32,7 +32,6 @@ body {
 	float: left;
 	height: 125px;
 	width: 125px;
-	text-overflow: 
 }
 
 #cwm {
@@ -47,7 +46,7 @@ body {
 	background: white;
 }
 
-#aboutme {
+#aboutme {	
 	border-color: #dddddd;
 	border-width: 10px;
 	background-color: #ffffff;
